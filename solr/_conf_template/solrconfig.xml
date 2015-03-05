@@ -777,6 +777,16 @@
        <str name="spellcheck.dictionary">default</str>
        <str name="spellcheck.extendedResults">true</str>
        <str name="spellcheck.collate">true</str>
+       <!-- Spell checking defaults -->
+       <str name="spellcheck">on</str>
+       <str name="spellcheck.extendedResults">false</str>
+       <str name="spellcheck.count">5</str>
+       <str name="spellcheck.alternativeTermCount">2</str>
+       <str name="spellcheck.maxResultsForSuggest">5</str>
+       <str name="spellcheck.collate">true</str>
+       <str name="spellcheck.collateExtendedResults">true</str>
+       <str name="spellcheck.maxCollationTries">5</str>
+       <str name="spellcheck.maxCollations">3</str>
      </lst>
      <arr name="last-components">
        <str>spellcheck</str>
